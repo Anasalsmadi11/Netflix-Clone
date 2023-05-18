@@ -1,19 +1,16 @@
-
+import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './components/Home'
-import Navbar from './components/Navbar';
+import Home from './components/Home';
 import {Route, Routes} from 'react-router-dom'
-import FavList from './components/FavList'
+// import Father from './components/Father';
 function App() {
   return (
     <>
-   <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path='/favlist' element={<FavList/>}/>
     </Routes>
-  
+    {/* <Father/> */}
     
     </>
   );

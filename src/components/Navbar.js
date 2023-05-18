@@ -1,0 +1,12 @@
+import {Link} from 'react-router-dom'
+
+function Navbar(){
+    return(
+     <>
+     <Link to="/">Home</Link>
+     <Link to="/favlist">Fav list</Link>
+
+     </>
+    )
+}
+export default Navbar;
